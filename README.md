@@ -1,9 +1,9 @@
 # TRABAJO PRACTICO ARQUITECTURA WEB
 
-_Descripción del proyecto_
+_Descripción del negocio: Inmobiliaria, búsqueda de inmuebles_
 
 
-## Autor ✒️
+## Integrantes ✒️
 
 * **Noelia Altamirano** -  [noelia-alt](https://github.com/noelia-alt)
 
