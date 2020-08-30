@@ -4,5 +4,5 @@ _Descripción del negocio: Inmobiliaria, ABM inmuebles/propiedades_
 
 ## Integrantes ✒️
 
-* **Noelia Altamirano** -  [noelia-alt](https://github.com/noelia-alt)
+* **Noelia Altamirano - legajo: 97029** -  [noelia-alt](https://github.com/noelia-alt)
 
