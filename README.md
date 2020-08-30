@@ -1,6 +1,6 @@
 # TRABAJO PRACTICO ARQUITECTURA WEB
 
-_Descripción del negocio: Inmobiliaria, búsqueda de inmuebles_
+_Descripción del negocio: Inmobiliaria, ABM inmuebles/propiedades_
 
 ## Integrantes ✒️
 
