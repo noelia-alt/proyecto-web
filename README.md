@@ -1,8 +1,8 @@
 # TRABAJO PRACTICO ARQUITECTURA WEB
 # Rest Api con NodeJs + Express + MongoDb
 
-_Descripción del negocio: Inmobiliaria, ABM usuarios/propiedades_
-_Cada usuario (broker inmobiliario identificado por Id) tiene varias propiedades a su disposicion._
+_Descripción del negocio: Inmobiliaria, ABM usuarios/propiedades
+_Cada usuario (broker inmobiliario identificado por Id) tiene varias propiedades a su disposicion.
 
 ## Integrantes ✒️
 
@@ -10,12 +10,12 @@ _Cada usuario (broker inmobiliario identificado por Id) tiene varias propiedades
 
 ## Endpoints
 
-_GET /users (obtiene todos los usuarios/brokers inmobiliarios)_
-_POST /users (insertar un nuevo broker)_
-_GET /:userId (Obtiene un broker por su id)_
-_PUT /:userId (actualiza datos del broker)_
-_DELETE /:userId (eliminar a un broker por su numero de Id)_
-_GET /:userId/prop (Obtiene todas las propiedades disponibles de un broker)_
-_POST /:userId/prop (Inserto una nueva propiedad para un broker determinado)_
+_GET /users (obtiene todos los usuarios/brokers inmobiliarios)
+_POST /users (insertar un nuevo broker)
+_GET /:userId (Obtiene un broker por su id)
+_PUT /:userId (actualiza datos del broker)
+_DELETE /:userId (eliminar a un broker por su numero de Id)
+_GET /:userId/prop (Obtiene todas las propiedades disponibles de un broker)
+_POST /:userId/prop (Inserto una nueva propiedad para un broker determinado)
 
 
