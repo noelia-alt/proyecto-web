@@ -8,8 +8,3 @@ _Descripción del negocio: Inmobiliaria, ABM inmuebles/propiedades_
 
 ## Endpoints
 
-GET '/propiedades' : lista todos las propiedades disponibles
-
-DELETE 'propiedades/:id' : borra una propiedad pasado por su numero de id
-
-POST 'propiedades/' agrega una propiedad 

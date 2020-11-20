@@ -1,7 +1,9 @@
 const { restart } = require("nodemon");
-const prop = require("../models/prop");
-
 const User = require('../models/user');
+const Prop = require("../models/prop");
+const prop = require("../models/prop");
+const user = require("../models/user");
+
 
 module.exports = {
 
@@ -24,7 +26,7 @@ module.exports = {
 
     replaceUser: async (req, res, next) => {
         const {userId} = req.params;
-        const newuser = req.body;
+        const newUser = req.body;
         const oldUser = await User.findByIdAndUpdate(userId, newUser);
         res.status(200).json({success: true});
     },
@@ -43,14 +45,14 @@ module.exports = {
 
     getUsersProps: async (req,res,next) => {
         const{userId} = req.params;
-        const user = await User.findById(userId);
+        const user = await User.findById(userId).populate('prop');
         res.status(200).json(user);
     },
 
     newUserProp: async (req,res,next) => {
         const {userId} = req.params;
         const newProp = new Prop(req.body);
-        const user = await User.findByI(userId);
+        const user = await User.findById(userId);
         newProp.broker = user;
         await newProp.save();
         user.prop.push(newProp);
@@ -58,5 +60,8 @@ module.exports = {
         res.status(201).json(newProp);
 
     }
+
+    
+
 
 };

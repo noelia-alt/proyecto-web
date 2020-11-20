@@ -23,9 +23,7 @@ app.use(bodyParser.json());
 //routes
 app.use('/users', userRoutes);
 
-//static files 
 
-//error handlers
 //Inicia servidor
 app.listen(app.get('port') , () => {
     console.log('Servidor en puerto ' , app.get('port'));

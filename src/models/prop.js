@@ -4,8 +4,9 @@ const Schema = mongoose.Schema;
 const propSchema = new Schema({
     type: String,
     street: String,
-    old: Number,
-    size: Number,
+    sizeM2: Number,
+    rent: Number,
+    salePrice: Number,
     broker: {
 
         type: Schema.Types.ObjectId,
