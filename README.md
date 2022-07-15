@@ -6,7 +6,7 @@
 
 ## Integrantes ✒️
 
-* **Noelia Altamirano - legajo: 97029** -  [noelia-alt](https://github.com/noelia-alt)
+* **Noelia Altamirano --  [noelia-alt](https://github.com/noelia-alt)
 
 ## Endpoints
 
